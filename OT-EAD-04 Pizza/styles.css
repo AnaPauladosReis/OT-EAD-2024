@@ -1,56 +1,59 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 .header {
-    text-align: center;
-    padding: 30px;
-    background-color: white;
+    background-color: rgb(255, 204, 204); /* Rosa */
+    padding: 10px;
 }
 
-.topnav {
-    float: left;
-    width: 100%;
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 14px 16px;
+.header a {
+    color: rgb(217, 134, 149); 
     text-decoration: none;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     padding: 20px;
+    font-size: 20px;
 }
 
-.produto {
-    width: 30%;
-    margin-bottom: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.produto img {
+.titulo {
     width: 100%;
-    height: auto;
+    background-image: url("https://i.ytimg.com/vi/2EbjM_X6iqM/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
 
-.descricao {
-    padding: 20px;
+.titulo h1 {
+    position: absolute;
     text-align: center;
+    color: rgb(255, 255, 204); 
+    top: 200px;
+    left: 100;
 }
 
-.valor {
-    font-size: 1.2em;
+.pizzas {
     font-weight: bold;
-    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.compra {
-    margin-top: 10px;
+.cardapio {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.preco {
+    background-color: rgba(204, 255, 204, 0.253); 
+    font-weight: bold;
+    float: right;
+}
+
+.rodape {
+    padding: 15px;
+    background-color: rgb(204, 229, 255); 
+    text-align: center;
+    vertical-align: middle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rodape h3 {
+    font-weight: bold;
 }
