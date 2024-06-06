@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif; /* Lato font */
+}
+
+.login-container {
+  background-image: url('https://w.wallhaven.cc/full/3k/wallhaven-3kxqv3.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login-form {
+  position: relative;
+  padding: 30px 60px;
+  background-color: #F29CA3; /* Light pink (#F29CA3) */
+  border-radius: 40px;
+  box-shadow: #26394D 0px 20px 30px -10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95; /* 95% transparent */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  color: #ffffff; /* White */
+}
+
+.login-form input {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho do input */
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #B17596; /* Dark pink (#B17596) */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  
