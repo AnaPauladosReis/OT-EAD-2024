@@ -40,5 +40,5 @@ for (let i = 0; i <= 20; i++) {
 let nomes = ['Ana', 'Maria', 'José', 'Carlos', 'Antônio']; 
 for (let nome of nomes) {
     console.log(nome);
-}  
+}  a
 
